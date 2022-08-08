@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background-color: hsl(30, 38%, 92%);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 250px
+}
+
+p.item{
+	font-family: "Montserrat";
+	font-size: 14px;
+	letter-spacing: 10px;
+	line-height: 50px 
+}
+
+p.description{
+	font-family: "Montserrat";
+	font-size: 14px;
+	color: hsl(228, 12%, 48%);
+	line-height: 20px;
+	padding-bottom: 20px;
+}
+
+p.discount{
+	font-family: "Fraunces";
+	font-size: 30px;
+	font-weight: 900;
+	color: hsl(158, 60%, 30%);
+	display: inline;
+}
+
+p.original{
+	font-family: "Fraunces";
+	color: hsl(228, 12%, 48%);
+	display: inline;
+	text-decoration: line-through;
+	text-align: center;
+}
+
+h1{
+	font-family: "Fraunces";
+	font-weight: bolder;
+	font-size: 40px;
+	line-height: 40px;
+	padding-bottom: 30px;
+}
+
+img{
+	width: 300px;
+	border-radius: 20px 0 0px 20px;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td.text{
+	width: auto;
+	background-color: white;
+	padding-left: 50px;
+	border-radius: 0 20px 20px 0px;	
+}
+
+button{
+	background-color: hsl(212, 21%, 14%);
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	width: 240px;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+
+.attribution{
+	font-family: "Montserrat";
+	text-align: center;
+	padding-top: 10px
+}
